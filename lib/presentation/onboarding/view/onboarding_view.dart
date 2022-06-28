@@ -1,4 +1,5 @@
-import 'package:advanced_app/domain/models.dart';
+import 'package:advanced_app/domain/models/slider_object.dart';
+import 'package:advanced_app/domain/models/slider_view_object.dart';
 import 'package:advanced_app/presentation/onboarding/view_model/onboarding_viewmodel.dart';
 import 'package:advanced_app/presentation/resources/assets_manager.dart';
 import 'package:advanced_app/presentation/resources/colors_manager.dart';
