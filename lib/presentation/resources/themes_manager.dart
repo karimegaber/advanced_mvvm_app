@@ -42,6 +42,8 @@ ThemeData getApplicationLightTheme() {
       splashColor: ColorsManager.lightPrimary,
     ),
 
+
+
     //Elevated Button
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
@@ -99,8 +101,9 @@ ThemeData getApplicationLightTheme() {
 
       // Enabled Border
       enabledBorder: OutlineInputBorder(
-        borderSide:
-            BorderSide(color: ColorsManager.grey, width: AppSize.s1_5.r),
+        borderSide: BorderSide(
+            color: ColorsManager.lightGrey.withOpacity(0.6),
+            width: AppSize.s1_5.r),
         borderRadius: BorderRadius.circular(AppSize.s8.r),
       ),
 
